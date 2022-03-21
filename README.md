@@ -1,5 +1,6 @@
+# Natural Language Interface Accessibility User Requirements
 
-# Specification 'naur'
+This is the repository for *Natural Language Interface Accessibility User Requirements*, maintained by the [Research Questions Task Force](https://www.w3.org/WAI/APA/task-forces/research-questions/) of the [Accessible Platform Architectures Working Group](https://www.w3.org/WAI/APA/).
 
-This is the repository for naur. You're welcome to contribute! Let's make the Web rock our socks
-off!
+Contributions are welcome, including new GitHub issues or pull requests.
+
