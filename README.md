@@ -4,3 +4,4 @@ This is the repository for *Natural Language Interface Accessibility User Requir
 
 Contributions are welcome, including new GitHub issues or pull requests.
 
+Latest editor's draft: https://w3c.github.io/naur/
