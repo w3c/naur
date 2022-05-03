@@ -49,9 +49,7 @@ var respecConfig = {
 	    },
 	    {
 		name: "Joshue O'Connor",
-		mailto: "joconnor@w3.org",
-		company: "W3C",
-		companyURI: "https://www.w3.org",
+		mailto: "josh@interaccess.ie",
 		w3cid: 41218
 	    },
 	],
