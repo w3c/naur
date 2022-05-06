@@ -4,6 +4,7 @@ var respecConfig = {
 	useExperimentalStyles: true,
 	doRDFa: '1.1',
 	includePermalinks: true,
+	lint: { "no-unused-dfns": false },
 	permalinkEdge:     true,
 	permalinkHide:     false,
 	noRecTrack: true,
