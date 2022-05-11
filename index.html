@@ -123,6 +123,9 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
   "useExperimentalStyles": true,
   "doRDFa": "1.1",
   "includePermalinks": true,
+  "lint": {
+    "no-unused-dfns": false
+  },
   "permalinkEdge": true,
   "permalinkHide": false,
   "noRecTrack": true,
@@ -151,15 +154,15 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
   "group": "apa",
   "github": "w3c/naur",
   "maxTocLevel": 4,
-  "publishISODate": "2022-05-03T00:00:00.000Z",
-  "generatedSubtitle": "W3C Editor's Draft 03 May 2022"
+  "publishISODate": "2022-05-11T00:00:00.000Z",
+  "generatedSubtitle": "W3C Editor's Draft 11 May 2022"
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/W3C-ED"></head>
 	<body class="h-entry informative"><div class="head">
     <p class="logos"><a class="logo" href="https://www.w3.org/"><img crossorigin="" alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72">
   </a></p>
     <h1 id="title" class="title">Natural Language Interface Accessibility User Requirements</h1> 
-    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2022-05-03">03 May 2022</time></p>
+    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2022-05-11">11 May 2022</time></p>
     <details open="">
       <summary>More details about this document</summary>
       <dl>
@@ -257,13 +260,13 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 	    
 	    <section id="what-is-a-natural-language-interface"><div class="header-wrapper"><h3 id="x1-1-what-is-a-natural-language-interface"><bdi class="secno">1.1 </bdi>What is a Natural Language Interface?</h3><a class="self-link" href="#what-is-a-natural-language-interface" aria-label="Permalink for Section 1.1"></a></div>
 	      
-	      <p>A <dfn id="dfn-natural-language-interface" tabindex="0" aria-haspopup="dialog" class="respec-offending-element" title="Found definition for &quot;natural language interface&quot;, but nothing links to it. This is usually a spec bug!" data-dfn-type="dfn">natural language interface</dfn> is a user interface in which the user and the system communicate via a natural (human) language. The user provides input via speech or some other method, and the system generates responses in the form of utterances delivered by speech, text or another suitable modality. </p>
+	      <p>A <dfn id="dfn-natural-language-interface" tabindex="0" aria-haspopup="dialog" data-dfn-type="dfn">natural language interface</dfn> is a user interface in which the user and the system communicate via a natural (human) language. The user provides input via speech or some other method, and the system generates responses in the form of utterances delivered by speech, text or another suitable modality. </p>
 	      <p>Often, systems that provide natural language interfaces support spoken interaction. In this scenario, speech recognition is used to process the user's input, and speech synthesis is used to generate the system's spoken responses. However, the use of speech is not essential to a natural language interface.</p>
 	      <p>Typical examples of natural language interfaces include:</p>
 	      <ul>
 		<li><strong>Voice agents designed primarily to communicate via speech</strong>. These agents may run on a computing device such as a mobile phone, tablet, laptop or desktop computer. They may also be embedded in specialized hardware such as consumer appliances, or the automation system of a vehicle.</li>
 		<li><strong>Chat bots included in Web applications</strong> that process natural language requests from the user. For example, a customer service application available on an organization's web site could offer a natural language user interface to handle customers' inquiries. Not all chatbots are speech-based, and some text-based chatbots can let people use speech via a keyboard dictation function.</li>
-		<li><dfn id="dfn-interactive-voice-response" tabindex="0" aria-haspopup="dialog" class="respec-offending-element" title="Found definition for &quot;Interactive Voice Response&quot;, but nothing links to it. This is usually a spec bug!" data-dfn-type="dfn">Interactive Voice Response</dfn> (<abbr title="Interactive Voice Response">IVR</abbr>) systems that interact with the user via a telephone call, accepting speech or key pad input and generating speech output.</li>
+		<li><dfn id="dfn-interactive-voice-response" tabindex="0" aria-haspopup="dialog" data-dfn-type="dfn">Interactive Voice Response</dfn> (<abbr title="Interactive Voice Response">IVR</abbr>) systems that interact with the user via a telephone call, accepting speech or key pad input and generating speech output.</li>
 	      </ul>
 	      <p>These examples are indicative of applications that use natural language interfaces. They are not definitive. Variations of the examples and applications that do not fit these patterns at all are possible.</p>
               <div class="note" role="note" id="issue-container-generatedID"><div role="heading" class="note-title marker" id="h-note" aria-level="4"><span>Note</span></div><aside class="">
@@ -285,7 +288,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 	      <p>Current work in accessibility guidelines and standards is moving toward accommodating these new ways of measuring more subjective accessibility requirements that support the needs of people with disabilities but may not be easily measured in a binary fashion.</p>
 
 	      <p>With this in mind, and in the context of Natural Language Interfaces, the design of the application should support the cognitive needs of users, including those who have learning or cognitive disabilities. Good practices such as discoverability, ease of use, and simple affordances, are important considerations in the design of the natural language interaction for all users and may require particular understanding when designing these interfaces.</p>
-	      <p> For example, there are particular challenges for people with cognitive disabilities using interfaces that rely on memory, so the design should accomodate this need by providing step-by-step instructions and reminding users how many steps they have completed and how many more steps they still need to complete. This pattern supports the users memory, rather than relying on it. There are other user needs patterns relating to supporting the needs of people with cognitive disabilities that can be referred to in 'Making Content Usable for People with Cognitive and Learning Disabilities'. [<cite><a class="bibref" data-link-type="biblio" href="#bib-content-usable" title="Making Content Usable for People with Cognitive and Learning Disabilities">content-usable</a></cite>] </p>
+	      <p> For example, there are particular challenges for people with cognitive disabilities using interfaces that rely on memory, so the design should accomodate this need by providing step-by-step instructions and reminding users how many steps they have completed and how many more steps they still need to complete. This pattern supports the user's memory, rather than relying on it. There are other user needs patterns relating to supporting the needs of people with cognitive disabilities that can be referred to in 'Making Content Usable for People with Cognitive and Learning Disabilities'. [<cite><a class="bibref" data-link-type="biblio" href="#bib-content-usable" title="Making Content Usable for People with Cognitive and Learning Disabilities">content-usable</a></cite>] </p>
 	    </section></section>
 
 
@@ -320,11 +323,10 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 	    </section>
 	    <section id="user-need-definition"><div class="header-wrapper"><h2 id="x5-user-need-definition"><bdi class="secno">5. </bdi>User need definition</h2><a class="self-link" href="#user-need-definition" aria-label="Permalink for Section 5."></a></div>
 	      
-	      <p><dfn id="dfn-user-needs" tabindex="0" aria-haspopup="dialog" class="respec-offending-element" title="Found definition for &quot;User needs&quot;, but nothing links to it. This is usually a spec bug!" data-dfn-type="dfn">User needs</dfn> relate to what a user needs from a particular application or platform to complete a task or to achieve a particular goal. User needs are dependent on the context in which an application is used, including the user's capabilities and the environmental conditions in which interaction with the interface takes place. For example, a spoken interaction would be inaccessible to a person who is deaf, or to a hearing person situated in a noisy environment. Although disability-related needs are the focus of this document, the user needs described here are not limited to people with specific types of disability. The capabilities of users vary greatly. They include a variety of physical, sensory, learning and cognitive abilities that should be taken into account in the design of platforms and applications.</p>
+	      <p><dfn id="dfn-user-needs" tabindex="0" aria-haspopup="dialog" data-dfn-type="dfn">User needs</dfn> relate to what a user needs from a particular application or platform to complete a task or to achieve a particular goal. User needs are dependent on the context in which an application is used, including the user's capabilities and the environmental conditions in which interaction with the interface takes place. For example, a spoken interaction would be inaccessible to a person who is deaf, or to a hearing person situated in a noisy environment. Although disability-related needs are the focus of this document, the user needs described here are not limited to people with specific types of disability. The capabilities of users vary greatly. They include a variety of physical, sensory, learning and cognitive abilities that should be taken into account in the design of platforms and applications.</p>
 
 	      <p>The user needs and associated requirements are actively being reviewed by the Research Questions Task Force (<abbr title="Research Questions Task Force">RQTF</abbr>) and by the Accessible Platform Architectures (<abbr title="Accessible Platform Architectures">APA</abbr>) Working Group.</p>
 	    </section>
-	  
 	  <section id="user-needs-and-requirements"><div class="header-wrapper"><h2 id="x6-user-needs-and-requirements"><bdi class="secno">6. </bdi>User needs and requirements</h2><a class="self-link" href="#user-needs-and-requirements" aria-label="Permalink for Section 6."></a></div>
 	    
 	    <p>This section outlines a variety of user needs and system requirements that can satisfy them.</p>
@@ -419,7 +421,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 		    <li><strong>REQ 10c:</strong> As an alternative to requirements 10a and 10b, provide a mode of operation in which a human sign language interpreter relays communication between the user and the system.</li>
 		  </ul>
 		  <div class="note" role="note" id="issue-container-generatedID-9"><div role="heading" class="note-title marker" id="h-note-8" aria-level="4"><span>Note</span></div><p class="">
-		    At present, it is generally infeasible to implement REQ 9a and REQ 9b with sufficient reliability and accuracy to be useful. Sign language processing (including automatic recognition, translation, and production of sign languages) involves challenging research problems. See [<cite><a class="bibref" data-link-type="biblio" href="#bib-bragg-et-al" title="Sign language recognition, generation, and translation: An interdisciplinary perspective">Bragg-et-al</a></cite>] for details. These two requirements are nevertheless stated here to encourage further research and development efforts.</p></div>
+		    At present, it is generally infeasible to implement REQ 10a and REQ 10b with sufficient reliability and accuracy to be useful. Sign language processing (including automatic recognition, translation, and production of sign languages) involves challenging research problems. See [<cite><a class="bibref" data-link-type="biblio" href="#bib-bragg-et-al" title="Sign language recognition, generation, and translation: An interdisciplinary perspective">Bragg-et-al</a></cite>] for details. These two requirements are nevertheless stated here to encourage further research and development efforts.</p></div>
 		  <div class="note" role="note" id="issue-container-generatedID-10"><div role="heading" class="note-title marker" id="h-note-9" aria-level="4"><span>Note</span></div><p class="">
 		  Sign languages vary by country and region. Therefore, multiple sign languages may need to be supported, depending on the intended audience of the system.</p></div>
 
@@ -553,7 +555,7 @@ Commands for performing a variety of functions typically supported by speech int
 		  See <abbr title="Web content Accessibility Guidelines">WCAG</abbr> 2.1 [<cite><a class="bibref" data-link-type="biblio" href="#bib-wcag21" title="Web Content Accessibility Guidelines (WCAG) 2.1">WCAG21</a></cite>], success criteria 3.3.1, 3.3.3, 3.3.4, and 3.3.6.</p></div>
 		  <ul>
 		    <li><strong>User Need 25:</strong> Users, especially those with learning or cognitive disabilities, need opportunities to avoid making errors that are irrevocable.</li>
-		    <li><strong>REQ 25a:</strong> Provide means of reversing actions that can be made reversible.</li>
+		    <li><strong>REQ 25:</strong> Provide means of reversing actions that can be made reversible.</li>
 		  </ul>
 		  <div class="note" role="note" id="issue-container-generatedID-22"><div role="heading" class="note-title marker" id="h-note-21" aria-level="5"><span>Note</span></div><p class="">
 		  See <abbr title="Web content Accessibility Guidelines">WCAG</abbr> 2.1 [<cite><a class="bibref" data-link-type="biblio" href="#bib-wcag21" title="Web Content Accessibility Guidelines (WCAG) 2.1">WCAG21</a></cite>], success criterion 3.3.6.</p></div>
