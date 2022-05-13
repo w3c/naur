@@ -11,7 +11,7 @@ var respecConfig = {
 	tocIntroductory: true,
 	// specification status (e.g., WD, LC, NOTE, etc.). If in doubt use ED.
 	// subtitle: "Alternatives to Visual Turing Tests on the Web",
-	specStatus:           "ED",
+	specStatus:           "DNOTE",
 	//crEnd:                "",
 	//perEnd:               "",
 	diffTool:             "http://www.aptest.com/standards/htmldiff/htmldiff.pl",
@@ -51,6 +51,7 @@ var respecConfig = {
 	    {
 		name: "Joshue O'Connor",
 		mailto: "josh@interaccess.ie",
+		company: "Invited Expert",
 		w3cid: 41218
 	    },
 	],
