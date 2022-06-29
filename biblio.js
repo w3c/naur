@@ -678,6 +678,11 @@ respecConfig.localBiblio = {
         "date": "April 2021",
         "href": "https://www.w3.org/TR/coga-usable/#user_needs"
     },
-       
+    "multimodal-interactive-maps": {
+	"authors": ["Sharon Oviatt"],
+	"title": "Multimodal interactive maps: Designing for human performance",
+	"publisher": "Human–Computer Interaction 12.1-2",
+	"date": "1997"
+    },
 };
 
