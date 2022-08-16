@@ -43,9 +43,8 @@ var respecConfig = {
 	editors: [
 	    {
 		name: "Jason White",
-		mailto: "jjwhite@ets.org",
-		company: "Educational Testing Service",
-		companyURI: "http://www.ets.org/",
+		mailto: "jason@jasonjgw.net",
+		company: "Invited Expert",
 		w3cid: 74028
 	    },
 	    {
